@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume-container">
+        <h1>Resume by Sualeha Khan</h1>
+        <form id="resumeForm">
+            
+             <!--left-section-->
+        <div class="left-section">
+            <img src="image.jpg/girl-with-long-hair-being-happy.jpg" alt="Profile Picture">
+            <section class="objective">
+                <h2>Career Objective</h2>
+                <p>Passionate software developer seeking to apply technical skills in a 
+                    challenging role to build innovative and efficient solutions</p>
+                </section>
+                <section class="certification">
+                    <h2>Certification</h2>
+                    <p><strong>Artificial Intelligence, web 3.0 nad Metaverse</strong> From Governor House Karachi On Going</p>
+                    </section>
+        </div>
+        <div class="right-section">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label><br>
+                <input type="text" class="class1" name="name" required placeholder="Enter Your Name..."> <br/> 
+            <label for="email"> Email: </label><br>
+            <input type="email" class="class1" name="email" required placeholder="Enter Your Email..."/> <br/>
+            <label for="phone">Phone: </label><br>
+            <input type="tel" class="class1" name="phone" required placeholder="Enter Your Contact No..."/> <br/>
+            </fieldset>
+            <fieldset>
+            <legend>Qualification</legend>
+            <label for="Matric">Maticulation:</label><br>
+            <input for="Matric" class="class1" name="Matric" placeholder="Enter Your Grade And Year Of Passing..."><br/>
+            <label for="HSC">Higher School:</label><br>
+            <input for="HSC" class="class1" name="HSC" placeholder="Enter Your Grade And Year Of Passing..."><br/>
+            <label for="Graduate">Graduation:</label><br>
+            <input for="graduate" class="class1" name="graduate" placeholder="Enter Your Grade And Year Of Passing..."><br/>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Work Experience
+                </legend>
+                <textarea for="Experience" name="Experience" rows="5" placeholder="Your Experience..." required></textarea>
+            </fieldset>
+            <fieldset id="skills">
+                <legend >
+                    Skills
+                </legend>
+                <textarea for="skills" name="Skills" rows="5" placeholder="Your Skills..." required></textarea>
+            </fieldset>
+            <button id="generate-resume">Generate Resume</button>
+        </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

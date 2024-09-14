@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* body{
+   
+} */
+.resume-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding:5px;
+
+}
+.left-section{
+    width: 30%;
+    background-color:rgb(49, 112, 121);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid  rgb(75, 45, 131);
+    border-radius: 8px 0px 0px 8px;
+
+}
+.left-section img{
+    width:150px;
+    margin: 10%;
+    border-radius: 50%;
+    border: 4px solid rgb(255,255,255);
+
+
+}
+.objective{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.certification{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.left-section h2{
+    color:white;
+    width: 70%;
+    border: 4px solid rgb(255, 255, 255);
+    padding: 10px 5px 10px 5px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(135, 184, 182);
+    border-radius: 8px;
+
+}
+.left-section p{
+    padding: 30px;
+    text-align: justify;
+    color: white;
+    hyphens: auto;
+}
+#resumeForm{
+    width: 90%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border:2px solid rgb(75, 45, 131) ;
+    box-shadow: 0px 8px 8px 0px rgb(92, 92, 92);
+    padding: 5px;
+    border-radius: 8px;
+    margin: 10px;
+}
+#resumeForm h1{
+    width: 90%;
+    justify-self: center;
+}
+.right-section{
+    width:70% ;
+    background-color: azure;
+    border: 2px solid rgb(75, 45, 131);
+    display: inline-block;
+    justify-content: center;
+    padding:20px;
+    border-radius: 0px 8px 8px 0px;
+    border-left: 0px;
+
+}
+legend{
+    font-size: 20px;
+    font-weight: bold;
+}
+fieldset{
+    background-color: rgb(233, 248, 248) ;
+    border: 2px solid rgb(81, 134, 132);
+    margin: 25px;
+    padding: 20px;
+    border-radius: 8px;
+   
+    box-shadow: 0  4px  4px #3e777480;
+}
+.class1{
+    width:100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+
+textarea{
+    width:calc(100% - 10px);
+    border-radius: 8px;
+    
+}
+button{
+    width: 100%;
+    margin-top: 10px;
+    /* position: center; */
+    border: 2px solid rgb(77, 133, 130);
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+    
+    font-size: 20px;
+    background-color:rgb(49, 112, 121) ;
+    color: white
+    
+}
+button:hover{
+    background-color:rgb(69, 139, 122);
+    color:black
+}
+h1 {
+    color: rgb(22, 22, 29);
+    position: relative;
+    display: flex;
+
+    cursor: pointer;
+    justify-content: center;
+  }
+h1:hover{
+    color:rgb(38, 116, 116)
+}
+  h1::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    
+    background-color: rgb(37, 139, 131);
+    bottom: 0;
+    left: 100%; /* Start at the middle */
+    transition: all 1s ease-in-out;
+    transform: translateX(-100%); /* Shift the start to the right */
+  }
+
+h1:hover::after{
+
+color: rgb(223, 89, 28);
+direction: rtl;
+width: 100%; /* Expand to half of the text */
+      left: 0%; /* Shift to the beginning */
+      transform: translateX(0);/* Remove the shift */
+
+
+}
